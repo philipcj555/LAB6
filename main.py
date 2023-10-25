@@ -10,6 +10,15 @@ def encode(password):
         u = str(t)
         encoded_pass += u
     return encoded_pass
+def decode(password):
+    decodedword = ""
+    for i in password:
+        i = int (i)
+        p = i - 3
+        o = str(p)
+        decodedword += o
+
+    return decodedword
 
 
 
