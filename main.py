@@ -13,14 +13,7 @@ def encode(password):
 
 
 
-def decode(password):
-    decodedpass = ""
-    for i in password:
-        i = int (1)
-        p = i -3
-        o = str(p)
-        decodedpass += o
-    return decodedpass
+
 
 def main():
     encoded = None
